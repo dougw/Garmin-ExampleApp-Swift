@@ -11,6 +11,8 @@ More details on the Connect IQ iOS SDK can be found at [Garmin's documentation f
 3. Update the Bundle Identifier to one of your own (Project Settings -> Bundle Identifier)
 4. Build for and run on your iOS device (the iOS simulator lacks BLE support)
 
+You may want to [side load](https://developer.garmin.com/connect-iq/getting-started/) one of Garmin's example projects on your test device -- e.g. the Comm example app -- so that you may exercise the BLE channel in Connect IQ.
+
 **Note that there is an issue with Garmin's Edge family of devices that renders the Connect IQ iOS SDK BLE channel broken at the time of writing (1/1/2017).**
 The Connect IQ team is aware of this bug, but have not committed to a timeline for the fix. See the following posts in the Connect IQ forum for details:
 * [https://forums.garmin.com/showthread.php?366206-Edge-1000-CIQ-2-2-1-Communications-transmit](https://forums.garmin.com/showthread.php?366206-Edge-1000-CIQ-2-2-1-Communications-transmit)
