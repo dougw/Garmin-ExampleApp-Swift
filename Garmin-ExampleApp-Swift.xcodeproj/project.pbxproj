@@ -1,0 +1,440 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		F0709DF11E1A097A00D255F5 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0709DC71E1A097A00D255F5 /* AppDelegate.swift */; };
+		F0709DF21E1A097A00D255F5 /* AppInfo.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0709DC81E1A097A00D255F5 /* AppInfo.swift */; };
+		F0709DF31E1A097A00D255F5 /* AppMessageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0709DC91E1A097A00D255F5 /* AppMessageViewController.swift */; };
+		F0709DF41E1A097A00D255F5 /* AppMessageViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = F0709DCA1E1A097A00D255F5 /* AppMessageViewController.xib */; };
+		F0709DF51E1A097A00D255F5 /* AppTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0709DCB1E1A097A00D255F5 /* AppTableViewCell.swift */; };
+		F0709DF61E1A097A00D255F5 /* AppTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = F0709DCC1E1A097A00D255F5 /* AppTableViewCell.xib */; };
+		F0709DF71E1A097A00D255F5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F0709DCD1E1A097A00D255F5 /* Assets.xcassets */; };
+		F0709E031E1A097A00D255F5 /* DeviceList.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F0709DDA1E1A097A00D255F5 /* DeviceList.storyboard */; };
+		F0709E071E1A097A00D255F5 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0709DE11E1A097A00D255F5 /* Constants.swift */; };
+		F0709E091E1A097A00D255F5 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = F0709DE31E1A097A00D255F5 /* Default-568h@2x.png */; };
+		F0709E0A1E1A097A00D255F5 /* DeviceAppListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0709DE41E1A097A00D255F5 /* DeviceAppListViewController.swift */; };
+		F0709E0B1E1A097A00D255F5 /* DeviceAppListViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = F0709DE51E1A097A00D255F5 /* DeviceAppListViewController.xib */; };
+		F0709E0C1E1A097A00D255F5 /* DeviceListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0709DE61E1A097A00D255F5 /* DeviceListViewController.swift */; };
+		F0709E0D1E1A097A00D255F5 /* DeviceManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0709DE71E1A097A00D255F5 /* DeviceManager.swift */; };
+		F0709E0E1E1A097A00D255F5 /* DeviceTableCellView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0709DE81E1A097A00D255F5 /* DeviceTableCellView.swift */; };
+		F0709E0F1E1A097A00D255F5 /* DeviceTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = F0709DE91E1A097A00D255F5 /* DeviceTableViewCell.xib */; };
+		F0709E121E1A097A00D255F5 /* TableEntry.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0709DEC1E1A097A00D255F5 /* TableEntry.swift */; };
+		F0709E221E1A0C4800D255F5 /* ConnectIQ.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F0709E211E1A0C4800D255F5 /* ConnectIQ.framework */; };
+		F0709E251E1A0CDD00D255F5 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F0709E231E1A0CDD00D255F5 /* LaunchScreen.storyboard */; };
+		F0709E271E1A0D1200D255F5 /* ConnectIQ.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = F0709E211E1A0C4800D255F5 /* ConnectIQ.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		F0D51BE61DBD5761007502AC /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				F0709E271E1A0D1200D255F5 /* ConnectIQ.framework in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		F01F14F11DB5E01C0076EBE6 /* Garmin-ExampleApp-Swift.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Garmin-ExampleApp-Swift.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		F0709DC71E1A097A00D255F5 /* AppDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = AppDelegate.swift; path = Source/AppDelegate.swift; sourceTree = SOURCE_ROOT; };
+		F0709DC81E1A097A00D255F5 /* AppInfo.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = AppInfo.swift; path = Source/AppInfo.swift; sourceTree = SOURCE_ROOT; };
+		F0709DC91E1A097A00D255F5 /* AppMessageViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = AppMessageViewController.swift; path = Source/AppMessageViewController.swift; sourceTree = SOURCE_ROOT; };
+		F0709DCA1E1A097A00D255F5 /* AppMessageViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = AppMessageViewController.xib; path = Source/AppMessageViewController.xib; sourceTree = SOURCE_ROOT; };
+		F0709DCB1E1A097A00D255F5 /* AppTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = AppTableViewCell.swift; path = Source/AppTableViewCell.swift; sourceTree = SOURCE_ROOT; };
+		F0709DCC1E1A097A00D255F5 /* AppTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = AppTableViewCell.xib; path = Source/AppTableViewCell.xib; sourceTree = SOURCE_ROOT; };
+		F0709DCD1E1A097A00D255F5 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Assets.xcassets; path = Source/Assets.xcassets; sourceTree = SOURCE_ROOT; };
+		F0709DDB1E1A097A00D255F5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Source/Base.lproj/DeviceList.storyboard; sourceTree = SOURCE_ROOT; };
+		F0709DE11E1A097A00D255F5 /* Constants.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Constants.swift; path = Source/Constants.swift; sourceTree = SOURCE_ROOT; };
+		F0709DE31E1A097A00D255F5 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Default-568h@2x.png"; path = "Source/Default-568h@2x.png"; sourceTree = SOURCE_ROOT; };
+		F0709DE41E1A097A00D255F5 /* DeviceAppListViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = DeviceAppListViewController.swift; path = Source/DeviceAppListViewController.swift; sourceTree = SOURCE_ROOT; };
+		F0709DE51E1A097A00D255F5 /* DeviceAppListViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = DeviceAppListViewController.xib; path = Source/DeviceAppListViewController.xib; sourceTree = SOURCE_ROOT; };
+		F0709DE61E1A097A00D255F5 /* DeviceListViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = DeviceListViewController.swift; path = Source/DeviceListViewController.swift; sourceTree = SOURCE_ROOT; };
+		F0709DE71E1A097A00D255F5 /* DeviceManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = DeviceManager.swift; path = Source/DeviceManager.swift; sourceTree = SOURCE_ROOT; };
+		F0709DE81E1A097A00D255F5 /* DeviceTableCellView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = DeviceTableCellView.swift; path = Source/DeviceTableCellView.swift; sourceTree = SOURCE_ROOT; };
+		F0709DE91E1A097A00D255F5 /* DeviceTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = DeviceTableViewCell.xib; path = Source/DeviceTableViewCell.xib; sourceTree = SOURCE_ROOT; };
+		F0709DEB1E1A097A00D255F5 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = Info.plist; path = Source/Info.plist; sourceTree = SOURCE_ROOT; };
+		F0709DEC1E1A097A00D255F5 /* TableEntry.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = TableEntry.swift; path = Source/TableEntry.swift; sourceTree = SOURCE_ROOT; };
+		F0709E211E1A0C4800D255F5 /* ConnectIQ.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = ConnectIQ.framework; sourceTree = "<group>"; };
+		F0709E241E1A0CDD00D255F5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Source/Base.lproj/LaunchScreen.storyboard; sourceTree = SOURCE_ROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F01F14EE1DB5E01C0076EBE6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F0709E221E1A0C4800D255F5 /* ConnectIQ.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		F01F14E81DB5E01C0076EBE6 = {
+			isa = PBXGroup;
+			children = (
+				F01F14F31DB5E01C0076EBE6 /* Source */,
+				F0709E211E1A0C4800D255F5 /* ConnectIQ.framework */,
+				F01F14F21DB5E01C0076EBE6 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		F01F14F21DB5E01C0076EBE6 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F01F14F11DB5E01C0076EBE6 /* Garmin-ExampleApp-Swift.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F01F14F31DB5E01C0076EBE6 /* Source */ = {
+			isa = PBXGroup;
+			children = (
+				F0709DC71E1A097A00D255F5 /* AppDelegate.swift */,
+				F0709DE11E1A097A00D255F5 /* Constants.swift */,
+				F0709E231E1A0CDD00D255F5 /* LaunchScreen.storyboard */,
+				F0709E1D1E1A0AEE00D255F5 /* Device List */,
+				F0709E1E1E1A0AFD00D255F5 /* App List */,
+				F0709E1F1E1A0B0C00D255F5 /* App Message */,
+				F0709E201E1A0B3700D255F5 /* Supporting Files */,
+			);
+			name = Source;
+			path = "Cruise di2";
+			sourceTree = "<group>";
+		};
+		F0709E1D1E1A0AEE00D255F5 /* Device List */ = {
+			isa = PBXGroup;
+			children = (
+				F0709DDA1E1A097A00D255F5 /* DeviceList.storyboard */,
+				F0709DE61E1A097A00D255F5 /* DeviceListViewController.swift */,
+				F0709DE71E1A097A00D255F5 /* DeviceManager.swift */,
+				F0709DE81E1A097A00D255F5 /* DeviceTableCellView.swift */,
+				F0709DE91E1A097A00D255F5 /* DeviceTableViewCell.xib */,
+			);
+			name = "Device List";
+			sourceTree = "<group>";
+		};
+		F0709E1E1E1A0AFD00D255F5 /* App List */ = {
+			isa = PBXGroup;
+			children = (
+				F0709DC81E1A097A00D255F5 /* AppInfo.swift */,
+				F0709DCB1E1A097A00D255F5 /* AppTableViewCell.swift */,
+				F0709DCC1E1A097A00D255F5 /* AppTableViewCell.xib */,
+				F0709DE41E1A097A00D255F5 /* DeviceAppListViewController.swift */,
+				F0709DE51E1A097A00D255F5 /* DeviceAppListViewController.xib */,
+			);
+			name = "App List";
+			sourceTree = "<group>";
+		};
+		F0709E1F1E1A0B0C00D255F5 /* App Message */ = {
+			isa = PBXGroup;
+			children = (
+				F0709DCA1E1A097A00D255F5 /* AppMessageViewController.xib */,
+				F0709DC91E1A097A00D255F5 /* AppMessageViewController.swift */,
+				F0709DEC1E1A097A00D255F5 /* TableEntry.swift */,
+			);
+			name = "App Message";
+			sourceTree = "<group>";
+		};
+		F0709E201E1A0B3700D255F5 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				F0709DEB1E1A097A00D255F5 /* Info.plist */,
+				F0709DE31E1A097A00D255F5 /* Default-568h@2x.png */,
+				F0709DCD1E1A097A00D255F5 /* Assets.xcassets */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F01F14F01DB5E01C0076EBE6 /* Garmin-ExampleApp-Swift */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F01F15031DB5E01C0076EBE6 /* Build configuration list for PBXNativeTarget "Garmin-ExampleApp-Swift" */;
+			buildPhases = (
+				F01F14ED1DB5E01C0076EBE6 /* Sources */,
+				F01F14EE1DB5E01C0076EBE6 /* Frameworks */,
+				F01F14EF1DB5E01C0076EBE6 /* Resources */,
+				F0D51BE61DBD5761007502AC /* Embed Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Garmin-ExampleApp-Swift";
+			productName = "Cruise di2";
+			productReference = F01F14F11DB5E01C0076EBE6 /* Garmin-ExampleApp-Swift.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F01F14E91DB5E01C0076EBE6 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0800;
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = "Doug Williams";
+				TargetAttributes = {
+					F01F14F01DB5E01C0076EBE6 = {
+						CreatedOnToolsVersion = 8.0;
+						DevelopmentTeam = 2SY82HDUQX;
+						LastSwiftMigration = 0820;
+						ProvisioningStyle = Automatic;
+						SystemCapabilities = {
+							com.apple.BackgroundModes = {
+								enabled = 1;
+							};
+						};
+					};
+				};
+			};
+			buildConfigurationList = F01F14EC1DB5E01C0076EBE6 /* Build configuration list for PBXProject "Garmin-ExampleApp-Swift" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = F01F14E81DB5E01C0076EBE6;
+			productRefGroup = F01F14F21DB5E01C0076EBE6 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F01F14F01DB5E01C0076EBE6 /* Garmin-ExampleApp-Swift */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F01F14EF1DB5E01C0076EBE6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F0709E0B1E1A097A00D255F5 /* DeviceAppListViewController.xib in Resources */,
+				F0709E251E1A0CDD00D255F5 /* LaunchScreen.storyboard in Resources */,
+				F0709E031E1A097A00D255F5 /* DeviceList.storyboard in Resources */,
+				F0709DF41E1A097A00D255F5 /* AppMessageViewController.xib in Resources */,
+				F0709DF71E1A097A00D255F5 /* Assets.xcassets in Resources */,
+				F0709E091E1A097A00D255F5 /* Default-568h@2x.png in Resources */,
+				F0709DF61E1A097A00D255F5 /* AppTableViewCell.xib in Resources */,
+				F0709E0F1E1A097A00D255F5 /* DeviceTableViewCell.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F01F14ED1DB5E01C0076EBE6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F0709E0A1E1A097A00D255F5 /* DeviceAppListViewController.swift in Sources */,
+				F0709E0E1E1A097A00D255F5 /* DeviceTableCellView.swift in Sources */,
+				F0709DF11E1A097A00D255F5 /* AppDelegate.swift in Sources */,
+				F0709E0C1E1A097A00D255F5 /* DeviceListViewController.swift in Sources */,
+				F0709E0D1E1A097A00D255F5 /* DeviceManager.swift in Sources */,
+				F0709E121E1A097A00D255F5 /* TableEntry.swift in Sources */,
+				F0709DF51E1A097A00D255F5 /* AppTableViewCell.swift in Sources */,
+				F0709DF21E1A097A00D255F5 /* AppInfo.swift in Sources */,
+				F0709DF31E1A097A00D255F5 /* AppMessageViewController.swift in Sources */,
+				F0709E071E1A097A00D255F5 /* Constants.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		F0709DDA1E1A097A00D255F5 /* DeviceList.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F0709DDB1E1A097A00D255F5 /* Base */,
+			);
+			name = DeviceList.storyboard;
+			sourceTree = "<group>";
+		};
+		F0709E231E1A0CDD00D255F5 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F0709E241E1A0CDD00D255F5 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		F01F15011DB5E01C0076EBE6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		F01F15021DB5E01C0076EBE6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		F01F15041DB5E01C0076EBE6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				DEVELOPMENT_TEAM = 2SY82HDUQX;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(SRCROOT)/**",
+					"$(PROJECT_DIR)",
+				);
+				INFOPLIST_FILE = "$(SRCROOT)/Source/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.dougw.Garmin-ExampleApp-Swift";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		F01F15051DB5E01C0076EBE6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				DEVELOPMENT_TEAM = 2SY82HDUQX;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(SRCROOT)/**",
+					"$(PROJECT_DIR)",
+				);
+				INFOPLIST_FILE = "$(SRCROOT)/Source/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.dougw.Garmin-ExampleApp-Swift";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F01F14EC1DB5E01C0076EBE6 /* Build configuration list for PBXProject "Garmin-ExampleApp-Swift" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F01F15011DB5E01C0076EBE6 /* Debug */,
+				F01F15021DB5E01C0076EBE6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F01F15031DB5E01C0076EBE6 /* Build configuration list for PBXNativeTarget "Garmin-ExampleApp-Swift" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F01F15041DB5E01C0076EBE6 /* Debug */,
+				F01F15051DB5E01C0076EBE6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = F01F14E91DB5E01C0076EBE6 /* Project object */;
+}

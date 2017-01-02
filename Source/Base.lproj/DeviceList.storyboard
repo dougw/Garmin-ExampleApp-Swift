@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="11762" systemVersion="16B2657" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="i6A-u2-c7f">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11757"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--Device List View Controller-->
+        <scene sceneID="65l-30-m6Y">
+            <objects>
+                <viewController id="i6A-u2-c7f" customClass="DeviceListViewController" customModule="Garmin_ExampleApp_Swift" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="pfV-vK-k6o"/>
+                        <viewControllerLayoutGuide type="bottom" id="9fB-tg-z8u"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="meY-7g-0eJ">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="44" sectionHeaderHeight="22" sectionFooterHeight="22" translatesAutoresizingMaskIntoConstraints="NO" id="QRa-PM-fwp">
+                                <rect key="frame" x="0.0" y="20" width="375" height="597"/>
+                                <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                            </tableView>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="DtT-4J-cXz">
+                                <rect key="frame" x="0.0" y="617" width="375" height="50"/>
+                                <color key="backgroundColor" red="0.64203774930000002" green="0.80266940590000002" blue="0.99919462199999998" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="50" id="Ou0-LN-gmn"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="20"/>
+                                <state key="normal" title="Find Devices"/>
+                                <connections>
+                                    <action selector="findDevicesButtonPressed:" destination="i6A-u2-c7f" eventType="touchUpInside" id="0gH-Iy-TuL"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="QRa-PM-fwp" firstAttribute="centerX" secondItem="meY-7g-0eJ" secondAttribute="centerX" id="0U4-KE-wuM"/>
+                            <constraint firstItem="9fB-tg-z8u" firstAttribute="top" secondItem="DtT-4J-cXz" secondAttribute="bottom" id="1cK-QQ-gDJ"/>
+                            <constraint firstItem="DtT-4J-cXz" firstAttribute="centerX" secondItem="meY-7g-0eJ" secondAttribute="centerX" id="6gi-k7-rfH"/>
+                            <constraint firstItem="QRa-PM-fwp" firstAttribute="width" secondItem="meY-7g-0eJ" secondAttribute="width" id="7CG-Nb-wiw"/>
+                            <constraint firstItem="DtT-4J-cXz" firstAttribute="width" secondItem="meY-7g-0eJ" secondAttribute="width" id="CfV-DV-vlB"/>
+                            <constraint firstItem="QRa-PM-fwp" firstAttribute="top" secondItem="pfV-vK-k6o" secondAttribute="bottom" id="oi7-zm-28p"/>
+                            <constraint firstItem="DtT-4J-cXz" firstAttribute="top" secondItem="QRa-PM-fwp" secondAttribute="bottom" id="qXT-eY-VBX"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="button" destination="DtT-4J-cXz" id="Dur-eR-hyZ"/>
+                        <outlet property="tableView" destination="QRa-PM-fwp" id="1nM-Qy-3Sq"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="8yc-Zr-WiL" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="61.600000000000001" y="37.331334332833585"/>
+        </scene>
+    </scenes>
+</document>
