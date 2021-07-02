@@ -41,7 +41,7 @@ class AppDelegate: UIResponder, UIApplicationDelegate, IQUIOverrideDelegate {
 
     var window: UIWindow?
     
-    func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplicationLaunchOptionsKey: Any]?) -> Bool {
+    func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey: Any]?) -> Bool {
         ConnectIQ.sharedInstance().initialize(withUrlScheme: ReturnURLScheme, uiOverrideDelegate: nil)
         DeviceManager.sharedInstance.restoreDevicesFromFileSystem()
         let viewController = DeviceListViewController.deviceListViewController()
@@ -54,7 +54,7 @@ class AppDelegate: UIResponder, UIApplicationDelegate, IQUIOverrideDelegate {
         return true
     }
     
-    func application(_ app: UIApplication, open url: URL, options: [UIApplicationOpenURLOptionsKey : Any] = [:]) -> Bool {
+    func application(_ app: UIApplication, open url: URL, options: [UIApplication.OpenURLOptionsKey : Any] = [:]) -> Bool {
         print("Received URL: \(url)")
         return DeviceManager.sharedInstance.handleOpenURL(url, options: options)
     }

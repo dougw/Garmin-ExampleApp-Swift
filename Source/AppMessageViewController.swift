@@ -153,6 +153,6 @@ class AppMessageViewController: UIViewController, IQDeviceEventDelegate, IQAppMe
         }
         self.logView.text = (self.logMessages as NSArray).componentsJoined(by: "\n")
         self.logView.layoutManager.ensureLayout(for: self.logView.textContainer)
-        self.logView.scrollRangeToVisible(NSRange(location: self.logView.text.characters.count - 1, length: 1))
+        self.logView.scrollRangeToVisible(NSRange(location: self.logView.text.count - 1, length: 1))
     }
 }
