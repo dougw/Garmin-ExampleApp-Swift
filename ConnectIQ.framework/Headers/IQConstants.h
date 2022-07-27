@@ -51,5 +51,13 @@ typedef NS_ENUM(NSInteger, IQSendMessageResult){
     /// @brief  The message failed to send and was retried, but could not complete
     ///         after a number of tries.
     IQSendMessageResult_Failure_MaxRetries,
+
+    /// @brief  The message was received by the device but it chose not to display
+    ///         a message prompt, ignoring the message.
+    IQSendMessageResult_Failure_PromptNotDisplayed,
+
+    /// @brief  The message was received by the device but the app to open
+    ///         was already running on the device.
+    IQSendMessageResult_Failure_AppAlreadyRunning,
 };
 NSString *NSStringFromSendMessageResult(IQSendMessageResult value);
