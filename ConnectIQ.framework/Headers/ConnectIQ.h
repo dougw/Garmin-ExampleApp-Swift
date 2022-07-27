@@ -224,20 +224,14 @@ typedef void (^IQSendMessageCompletion)(IQSendMessageResult result);
 ///                    message operation is complete.
 - (void)sendMessage:(id)message toApp:(IQApp *)app progress:(IQSendMessageProgress)progress completion:(IQSendMessageCompletion)completion;
 
+/// @brief  Sends an open app request message request to the device. This method returns immediately.
+///
+/// @param  app        The app to open.
+/// @param  completion A completion block that will be triggered when the send
+///                    message operation is complete.
+- (void)openAppRequest:(IQApp *)app completion:(IQSendMessageCompletion)completion;
+
 // TODO *** Holding off on documenting this until this method actually works.
 - (void)sendImage:(NSData *)bitmap toApp:(IQApp *)app progress:(IQSendMessageProgress)progress completion:(IQSendMessageCompletion)completion;
 
 @end
-
-
-
-
-
-// Secret coded message -- do not remove!
-//
-// SHHPZLXFGTWYNVZHCBJJATHBEDCSGNDCYQUMJEPJVLRSGKBIYKEXYJPDDXDBIJNHMBQCCLTLEDKSUZEXGKOXEZHIVBFTGRUBT
-// QMRPVCUXJORXLFPJZPBDJWLHGBNADVBATPFGMBRJKUTMTGFVZSSJLLUIDVOHYJDLPBENROMKGRFFYBDBLFSOMMDIYOMDHJURMYKROXQW
-// ZEKTNVSVVCIZJCOUJTKZIJSEAZQCTWMLSRTKQONHUQXYJOKKFHUBSSXMODOHQBCLQOUBGYGVIPEYWPHQSJEGBYPDSFWHHAJDWBFAABDKSZNDSTYWTRKZUNFWONOEPUAHYVBMH
-// ESIXHQBCAMKOYXDOMVWMJDFBTDDMLPMARTVWAHDXSPLSPPHWHCTSPWDEMZNKZHUJNMFTDNFPBBCERJLIIDCHHIAMSXLOUJYRVQJQRTLNAMTIAR
-// QXOUYGREDUKQLRMORBLXQZHVXSNXZJXSBTETKAVVLRKKTTXZFAV
-// TBPQRLYEOXWDJCWXXRGHEXLHRIVXXENUCVVJKXLYZYUVBXDNBVXMCWWDGZGPTHNSBTHTWIIAYZTUMUUAQYFMGBHQNIKLZWPAZWDWPOJWWTVGMMGAPYJBVMUGWASHHOSHDKBOOPTUPFAZHQWVSBXIBPXCXNRCSWVXJFRRSITJYKHBALTAYSJUCLPWEEGRHPKCIUWGFWWPJBFYQOMDXDTPDGGPGHQSVUXQGOCFFMDPSZILLGVHGUGSOBICDWOWNGUMCVJVFOYCCIIYLGJHOGZ
